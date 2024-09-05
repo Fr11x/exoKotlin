@@ -1,5 +1,6 @@
 fun main() {
-    val number: String = 100
+    val number: Int = 100
+    // var number = 100
     println(number)
 }
 
