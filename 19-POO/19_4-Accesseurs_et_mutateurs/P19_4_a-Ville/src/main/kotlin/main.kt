@@ -1,5 +1,8 @@
 class City(val name: String) {
-    var population: Int
+    var population: Int = 0
+    init {
+        population = if (population<0) 0 else if (population>50_000_000) 50_000_000 else population
+    }
 }
 
 fun main() {
