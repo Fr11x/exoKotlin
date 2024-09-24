@@ -10,4 +10,3 @@ class ByteTimer(var time: Int) {
         time = if (time <=-128) -128 else if (time>=127) 127 else time
     }
 }
-
